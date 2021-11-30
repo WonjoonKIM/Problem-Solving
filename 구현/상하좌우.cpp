@@ -20,8 +20,8 @@ int main(void) {
     for (int i = 0; i < plans.size(); i++) {
         char plan = plans[i];
         // 이동 후 좌표 구하기 
-        int nx = -1, ny = -1;
-        for (int j = 0; j < 4; j++) {
+        int nx = -1, ny = -1; 
+        for (int j = 0; j < 4; j++) { // {'L', 'R', 'U', 'D'}
             if (plan == moveTypes[j]) {
                 nx = x + dx[j];
                 ny = y + dy[j];
