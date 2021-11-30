@@ -21,7 +21,7 @@ int main(void) {
         int nextRow = row + dx[i];
         int nextColumn = column + dy[i];
         // 해당 위치로 이동이 가능하다면 카운트 증가
-        if (nextRow >= 1 && nextRow <= 8 && nextColumn >= 1 && nextColumn <= 8) {
+        if (nextRow >= 1 && nextRow <= 8 && nextColumn >= 1 && nextColumn <= 8) { // 나이트가 이동할 수 있는 특성을 고려한 
             result += 1;
         }
     }
