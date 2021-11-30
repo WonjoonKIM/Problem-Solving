@@ -11,8 +11,8 @@ int dy[] = {-1, -2, -2, -1, 1, 2, 2, 1};
 int main(void) {
     // 현재 나이트의 위치 입력받기
     cin >> inputData;
-    int row = inputData[1] - '0';
-    int column = inputData[0] - 'a' + 1;
+    int row = inputData[1] - '0';        // 정수로 치환
+    int column = inputData[0] - 'a' + 1; // 정수로 치환
 
     // 8가지 방향에 대하여 각 위치로 이동이 가능한지 확인
     int result = 0;
