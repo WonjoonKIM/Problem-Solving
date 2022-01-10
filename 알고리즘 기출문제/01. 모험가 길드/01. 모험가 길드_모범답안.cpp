@@ -27,5 +27,5 @@ int main(void) {
         }
     }
 
-    cout << result << '\n'; // 총 그룹의 수 출력
+    cout << result; // 총 그룹의 수 출력
 }
